@@ -1,0 +1,36 @@
+/* styles of my aia tables*/
+
+h2.pageID{
+    text-align: center;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+
+
+}
+
+table.client th{
+    color: darkslateblue;
+}
+
+table.audience th{
+    font-size: 30px;
+    color:darkslateblue;
+    text-align: center;
+}
+
+table.client td{
+    background: lightblue;
+}
+
+table.audience td{
+    background: lightblue;
+}
+
+td,th{
+    padding: .5em;
+    border: 2px solid black;
+}
