@@ -3,7 +3,10 @@
 <head>
 <title><?=$title?></title>
 <meta name="viewport" content="width=device-width" />
-<meta name="robots" content="noindex,nofollow" />
+<meta name="robots" content="<?=$robots?>" />
+<meta name="keywords" content=""/>
+<meta name="description" content="Looking for a new website for your Non Profit or small business? 
+Look no further than NJ based 2 Dogs Media. 10+ years of experience doing what we love!"/>
 <meta charset="utf-8">
 <script src="https://use.fontawesome.com/bb1adc1940.js"></script>
 <link rel="stylesheet" href="css/nav.css" />

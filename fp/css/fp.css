@@ -1,0 +1,156 @@
+html {
+    background-color: lightblue;
+
+}
+header{
+    background-color: lightcoral;
+    padding: 5px;
+    text-align: center;
+
+}
+img.img5{
+    display: none;
+}
+.social-media{
+    padding: 5px;
+}
+
+
+/* Drop down nagivation */
+.dropdown{
+    position: relative;
+}
+.dropdown-menu a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+.dropdown-menu a:hover{
+    background-color: lightgreen;
+
+}
+.dropdown-menu{
+    background-color: lightgray;
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+/*Right side content*/
+.bio-text{
+    background-color: lightseagreen;
+    height: 608px;
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background-color: lightyellow;
+    text-align: center;
+    padding: 5px;
+
+}
+/* Left side content */
+.photos{
+    background-color: lightskyblue;
+
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    padding: 9px;
+}
+.blog{
+    background-color: lightslategray;
+    text-align:center;
+    height: 355px;
+    padding: 9px;
+
+}
+footer{
+    text-align: left;
+    margin-right: 35%;
+    padding: 5px;
+}
+
+/*responsive design ( desktop ) */
+@media all and (min-width:1400px){
+    .wrapper-right {
+        width: 35%;
+        float: right;
+        text-align: center;
+        margin: auto;
+    
+    }
+    .wrapper-left{
+        width: 65%;
+        float: left;
+        text-align: center;
+        margin: auto;
+    
+    
+    }
+
+}
+
+/*Responsive design ( tablet ) */
+@media all  and (min-width:737px) and (max-width:1399px){
+
+    .wrapper-right {
+        width: 35%;
+        float: right;
+        margin: auto;
+    
+    }
+    .wrapper-left{
+        width: 65%;
+        float: left;
+        text-align: center;
+        margin: auto;
+    
+    
+    }
+
+    img.img1, img.img2{
+        display: none;
+    }
+    img.img3, img.img4{
+        width: 25%;
+        height: 25%;
+
+    }
+}
+/*Responsive design (mobile) */
+@media all and (max-width:736px){
+    div.wrapper-left{
+        display: none;
+    }
+    img.img5{
+        display: inline-block;
+
+    }
+    div.wrapper-right{
+        margin:auto;
+        width:100%;
+        text-align: center;
+    }
+    footer{
+        margin: auto;
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+
