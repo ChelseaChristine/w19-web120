@@ -13,12 +13,8 @@
 
         <!-- Here is where the blog snippet or possibly text will go -->
         <section class="embed-container">
-        <h2 class="pageID">Home</h2>
-        <div class ="twitter">
-            <a class="twitter-timeline" data-width="50%" data-height="500" data-theme="dark" href="https://twitter.com/charolettejpop?ref_src=twsrc%5Etfw">Tweets by charolettejpop</a> 
-            <script async src="https://platform.twitter.com/widgets.js"></script>
-        </div>
-        </section>
+        <h2 class="pageID">Projects</h2>
+        <h3>Work in Progress</h3>
         </div>
         
         <!-- Here is the footer -->

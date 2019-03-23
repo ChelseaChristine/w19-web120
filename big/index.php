@@ -1,10 +1,11 @@
+<?php include 'includes/big-config.php'?>
 <?php include 'includes/header.php';?>
-<?php include 'includes/config.php';?>
+
         
 <!-- START LEFT COL -->
 <section>
  <h2 class="pageID">Web Client Questions (form)</h2>
-  <p>Place a multiple.php form include that lists questions you'd typically ask any client seeking your assistance.</p>
+ <?php include "includes/multiple.php";?>
 </section>
 <!-- END LEFT COL -->
 

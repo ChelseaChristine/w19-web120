@@ -13,11 +13,8 @@
 
         <!-- Here is where the blog snippet or possibly text will go -->
         <section class="embed-container">
-        <h2 class="pageID">Home</h2>
-        <div class ="twitter">
-            <a class="twitter-timeline" data-width="50%" data-height="500" data-theme="dark" href="https://twitter.com/charolettejpop?ref_src=twsrc%5Etfw">Tweets by charolettejpop</a> 
-            <script async src="https://platform.twitter.com/widgets.js"></script>
-        </div>
+        <h2 class="pageID">Contact Me</h2>
+        <?php include "includes/simple.php";?>
         </section>
         </div>
         
